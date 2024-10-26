@@ -1,0 +1,24 @@
+{
+    "name": "So4s-Pflanzen-SOS-Pumpe",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.42",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
