@@ -25,12 +25,16 @@ basic.forever(function () {
 basic.forever(function () {
     if (Wasser == 0) {
         motors.motorPower(0)
+        basic.turnRgbLedOff()
     } else if (Wasser == 1) {
         motors.motorPower(100)
+        basic.setLedColor(0x00ffff)
         basic.pause(10000)
         motors.motorPower(0)
+        basic.turnRgbLedOff()
         basic.pause(50000)
     } else {
         motors.motorPower(0)
+        basic.turnRgbLedOff()
     }
 })
