@@ -39,9 +39,11 @@ basic.forever(function () {
         motors.motorPower(0)
         basic.turnRgbLedOff()
     } else if (Wasser == 1) {
-        motors.motorPower(100)
+        motors.motorPower(80)
         basic.setLedColor(0x00ffff)
-        basic.pause(10000)
+        basic.pause(1100)
+        motors.motorPower(69)
+        basic.pause(8900)
         motors.motorPower(0)
         basic.turnRgbLedOff()
         basic.pause(50000)
